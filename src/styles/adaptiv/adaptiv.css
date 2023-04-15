@@ -1,0 +1,416 @@
+
+
+@media (min-width: 1442px){
+
+    body{
+        font-size: 30px;
+    }
+    .aboutMain .logoMain .text {
+        width: 110%;
+    }
+    .blockPlace {
+        margin-top: -5px;
+    }
+    .garant .backGrWhite {
+    height: calc(100% + 3px + 20px + 51.56px);
+    top: calc(-25px - 51.56px);
+    left: -5%;
+    width: 110%;
+    }
+    .garant .prelogGarant {
+    margin-left: 0;
+    }
+    .servisFun .panelServis .backGrServis {
+        height: calc(100% + 55.563px);
+        top: -55.563px;
+    }
+    .backAboutContactGrou {
+        width: 100%;
+        height: calc(100% + 55.56px + 30px);
+        position: absolute;
+        top: -55.56px;
+    }
+    .contactAbout .map .iframeMap {
+        width: 550px;
+        height: 550px;
+    }
+}
+
+@media (min-width: 1802px){
+
+    body{
+        font-size: 33px;
+    }
+    .blockPlace {
+        margin-top: -9px;
+    }
+    .aboutMain .logoMain .text {
+        width: 120%;
+    }
+    .aboutMain .logoWords {
+        margin-left: 15%;
+    }
+    .block_1 .description .textBlockText {
+        width: 80%;
+        margin: 40px 70px 70px 70px;
+    }
+    .block_1 .description .textBlockName {
+        padding-top: 10px;
+    }
+    .block_1 .description .triugol {
+        border-top: 450px solid #eded16;
+    }
+    .block_1 .description #textBlockText_2 {
+        margin-left: 120px;
+    }
+    .contactAbout {
+        width: 100%;
+        position: relative;
+        height: 1199px;
+    }
+    .contactAbout .map .iframeMap {
+        width: 800px;
+        height: 800px;
+        border-radius: 10px;
+    }
+    .backAboutContactGrou {
+        width: 100%;
+        height: calc(100% + 51.56px + 8px + 30px);
+        position: absolute;
+        top: -59.56px;
+    }
+    .contactAbout .contact .infCon ._text_cont_gar{
+        margin-top: 25px;
+    }
+    .contactAbout .contact .infCon ._name_cont_gar{
+        margin-top: 100px; 
+    }
+    .contactAbout .contact {
+        margin-top: -85px;
+    }
+    .garant .backGrWhite {
+        height: calc(100% + 8px + 20px + 51.56px);
+        top: calc(-25px - 59.56px);
+    }
+    .servisFun .panelServis .backGrServis {
+        height: calc(100% + 59.563px);
+        top: -59.563px;
+    }
+
+}
+
+@media (max-width: 1250px){
+    .aboutMain .logoWords{
+        margin-left: 2%;
+    }
+    .blockPlace .placeMain {
+        margin-left: 5%;
+    }
+
+    
+}
+
+@media (max-width: 1120px){
+    .aboutMain{
+        display: block;
+        height: fit-content;
+    }
+    
+    .aboutMain .logoMain {
+        position: sticky;
+        margin: 30px 0 0 0;
+        width: 100%;
+    }
+    .aboutMain .logoWords {
+    margin: 30px 0;
+    position: sticky;
+    justify-content: center;
+    }
+
+    .aboutMain .backSecMain {
+    height: calc(100% + 51.56px + 30px + 28.75px);
+    }
+    .contactAbout .contact {
+        margin-left: 5%;
+    }
+    .contactAbout .map {
+        left: 48%;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .blockPlace{
+        display: block;
+    }
+    .workHourMain{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .blockPlace .placeMain {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+
+    }
+    .aboutMain .backSecMain {
+        height: calc(100% + 51.56px + 30px + 57.5px);
+    }
+
+
+}
+
+@media (max-width: 940px){
+
+    .textFooter {
+        height: 50px;
+    }
+    .contactAbout .contact {
+        margin: 0;
+    }
+    .contactAbout .map {
+        position: relative;
+        width: 100%;
+        left: 0;
+        margin-top: 55px;
+        margin-bottom: 30px;
+    }
+    .contactAbout {
+        height: fit-content;
+        box-shadow: none;
+    }   
+    .contactAbout .contactBlock {
+    height: fit-content;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 55px;
+    }
+    .backAboutContactGrou {
+    height: calc(100% + 51.56px + 50px + 110px + 30px);
+    top: calc( -51.56px - 110px );
+    }
+    .contactAbout .contact .infCon .grafik .grafikCall {
+        margin-left: 0;
+    }
+    .contactAbout .contact .infCon .textAdress {
+        margin: 10px 0 0 0%;
+    }
+    .contactAbout .contact .infCon .textTelephone {
+        margin: 10px 0 0 0%;
+    }
+
+}
+
+@media (max-width: 940px){
+    .blockHeader .ulHeader {
+        display: block;
+        z-index: 4;
+        transition: 800ms;
+        margin-top: -140px;
+        padding-top: 0px;
+        height: 0px;
+        overflow: hidden;
+        background: #383838cf;
+        position: fixed;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .aboutMain .backSecMain {
+        height: calc(100% + 51.56px + 30px + 57.5px + 50px);
+        top: calc(-0.75em - 15px - 4px - 15px - 50px );;
+    }
+    .blockHeader{
+        height: 51.56px;
+        margin-top: 30px;
+    }
+    .blockHeader .ulHeader li {
+        display: flex;
+        width: 92%;
+        justify-content: center;
+        font-size: 1.5em;
+    }
+    .blockHeader .ulHeader li a {
+        margin-top: 70px;
+    }
+
+    .aboutMain .logoMain {
+        margin: 45px 0 0 0;
+    }
+    section .garantBackGr {
+        height: calc(100% + 90px + 51.56px + 30px);
+    }
+
+    .blockHeader .tabMobileMenu {
+        display: flex;
+    }
+
+
+    .servisFun .panelServis .backGrServis {
+        height: calc(100% + 51.563px + 40px);
+        top: calc(-51.563px - 40px);
+    }
+    .garant .backGrWhite {
+        height: calc(100% + 20px + 51.56px + 40px);
+        top: calc(-20px - 51.56px - 40px);
+    }
+
+}
+
+@media (max-width: 820px){
+    .servisFun .panelServis .backGrServis {
+        background-size: 200%;
+    }
+    .garant .prelogGarant {
+    width: calc(100% - 25px);
+    margin-left: 10px;
+    }
+}
+
+@media (max-width: 797px){
+    .servisFun .ulServisFun .servis {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 650px){
+    .block_1 .description .triugol {
+    visibility: hidden;
+    }
+    .block_1 .description .backMainSecGround {
+    width: 100%;
+    }
+    .block_1 .description {
+        width: 100%;
+        margin: 0;
+    }
+    .block_1 .description #textBlockText_2 {
+        margin: 0 0 20px 5%;
+    }
+    .block_1 .description .textBlockText {
+        margin: 0 0 20px 5%;
+        width: 90%;
+    }
+    .block_1 .imgSectionBlock {
+        width: 100%;
+        height: 270px;
+    }
+    .garant {
+        width: 80%;
+        margin: 20px 10% 0 10%;
+        margin-left: calc(10% - 30px);
+
+    }
+}
+
+@media (max-width: 600px){
+    .aboutMain .logoWords .text {
+        width: 260px;
+        text-align: center;
+    }
+    .aboutMain .logoMain .text {
+        font-size: 2.0em;
+    }
+    .blockPlace {
+        display: block;
+        font-size: 0.8em;
+        height: 55.5px;
+    }
+    .blockPlace .placeMain {
+        margin-top: 5px;
+    }
+    .aboutMain .logoWords .text {
+    font-size: 1.2em;
+    }
+    .block_1 .description .textBlockName {
+        font-size: 1.1em;
+    }
+    .block_1 .description .textBlockText {
+        font-size: 0.84em;
+    }
+    .servisFun .panelServis .nameServis {
+        margin: 20px 5% 0 5%;
+    }
+    .servisFun .panelServis .timeServis {
+        margin: 20px 5% 0 5%;
+    }
+    .servisFun .panelServis .priseServis {
+        margin: 20px 5% 0 5%;
+    }
+    .servisFun .panelServis .callBack {
+        margin: 20px 0 0 5%;
+    }
+    .contactAbout .map .iframeMap {
+        width: 400px;
+        height: 400px;
+    }
+    .blockHeader .ulHeader li a {
+        font-size: 0.8em;
+    }
+}
+
+
+
+@media (max-width: 480px){
+    .textFooter {
+        height: 69px;
+    }
+    .blockPlace .span {
+        margin-left: 6px;
+    }
+    .servisFun .panelServis {
+        font-size: 0.9em;
+    }
+    .servisFun .ulServisFun .servis {
+        font-size: 0.7em;
+    }
+    .servisFun .panelServis .backGrServis {
+        background-size: 400%;
+    }
+    .block_1 .imgSectionBlock {
+        background-size: 150%;
+    }
+    section .garantBackGr {
+        height: calc(100% + 110px + 51.56px + 30px);
+    }
+    .contactAbout .map .iframeMap {
+        width: 320px;
+        height: 320px;
+    }
+    .backAboutContactGrou {
+        height: calc(100% + 51.56px + 75px + 110px + 30px);
+    }
+    ._name_cont_gar{
+        font-size: 0.9em;
+    }
+    ._text_cont_gar{
+        font-size: 0.85em;
+    }
+}
+
+@media (max-width: 420px){
+    .garant .prelogGarant {
+        font-size: 0.85em;
+    }
+    .garant {
+        width: calc(100% - 60px);
+        margin: 0;
+    }
+    .garant .prelogGarant {
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 370px){
+    .aboutMain .logoMain .text {
+        font-size: 1.8em;
+    }
+    .blockPlace {
+        visibility: hidden;
+    }
+}
