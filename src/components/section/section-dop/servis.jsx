@@ -17,7 +17,7 @@ console.log(window.location.pathname)
             <div className="nameServis"><span>Наименование обслуживания:</span> Выберите необходимую услугу</div>
             <div className="timeServis"><span>Длительность обслуживания: </span>Выберите необходимую услугу</div>
             <div className="priseServis"><span>Цена:</span> Неопределено</div>
-            <div className="callBack">Записаться<div className="after">Записаться</div></div>
+            <div className="callBack" style={{display: "none"}}>Записаться<div className="after">Записаться</div></div>
             </div>
             <ul className="ulServisFun">
             { 

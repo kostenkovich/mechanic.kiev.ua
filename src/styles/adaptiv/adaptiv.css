@@ -221,7 +221,9 @@
     }
     .aboutMain .backSecMain {
         height: calc(100% + 51.56px + 30px + 57.5px + 50px);
-        top: calc(-0.75em - 15px - 4px - 15px - 50px );;
+        top: calc(-0.75em - 15px - 4px - 15px - 50px );
+        background-size: 200%;
+
     }
     .blockHeader{
         height: 51.56px;
@@ -274,7 +276,23 @@
     .servisFun .ulServisFun .servis {
         width: 80%;
     }
+    .servisFun .panelServis .priseServis {
+        margin: 20px 0 0 5%;
+        width: 88%;
+    }
 
+    .servisFun .panelServis .nameServis{
+        margin: 20px 0 0 5%;
+        width: 88%;
+    }
+    .servisFun .panelServis .timeServis{
+        margin: 20px 0 0 5%;
+        width: 88%;
+    }
+    .servisFun .ulServisFun .servis {
+        width: 80%;
+        margin-left: -25px;
+    }
 }
 
 @media (max-width: 650px){
@@ -331,6 +349,7 @@
     }
     .block_1 .description .textBlockText {
         font-size: 0.84em;
+        text-align: center;
     }
     .servisFun .panelServis .nameServis {
         margin: 20px 5% 0 5%;
@@ -350,6 +369,16 @@
     }
     .blockHeader .ulHeader li a {
         font-size: 0.8em;
+    }
+    .blockHeader .ulHeader ._lastMenuEl{
+        text-decoration: underline 2px;
+    }
+    .contactAbout .contact .infCon .textTelephone {
+        text-decoration: underline 1px;
+    }
+    .aboutMain .backSecMain {
+        background-size: 250%;
+        
     }
 }
 
@@ -411,6 +440,9 @@
         font-size: 1.8em;
     }
     .blockPlace {
-        visibility: hidden;
+        display: none;
+    }
+    .aboutMain .backSecMain {
+        top: calc(-0.75em - 70px - 4px - 15px - 50px );
     }
 }

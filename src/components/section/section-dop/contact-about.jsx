@@ -24,8 +24,8 @@ function SectionContactAbout() {
                     <div className="telephone">
                         <div className="nameTelephone _name_cont_gar">Контакты:</div>
                         <ul className="ulTelephone">
-                            <li className="textTelephone _text_cont_gar">+38(096)896-19-01</li>
-                            <li className="textTelephone _text_cont_gar">+38(050)343-34-34</li>
+                            <li className="textTelephone _text_cont_gar" tel="+380968961901">+38(096)896-19-01</li>
+                            <li className="textTelephone _text_cont_gar" style={{display: "none"}}>+38(050)343-34-34</li>
                         </ul>
                     </div>
                 </div>

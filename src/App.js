@@ -8,10 +8,12 @@ import SectionServis from "./components/section/section-dop/servis";
 import SectionGarant from "./components/section/section-dop/garant";
 import SectionContactAbout from "./components/section/section-dop/contact-about";
 
+
 import './styles/header/header.scss'
 import './styles/footer/footer.css'
 import './styles/section/section.scss'
 import './styles/adaptiv/adaptiv.css'
+
 
 import servis from "./db";
 

@@ -217,7 +217,7 @@ function openTabMenu() {
             <li className="liMenuEl"><Link className="menuEl" onClick={() => setThisUrl("/servis")} to={"/servis"}>Сервіс</Link></li>
             <li className="liMenuEl"><Link className="menuEl" onClick={() => setThisUrl("/garant")} to={"/garant"}>Гарантія</Link></li>
             <li className="liMenuEl"><Link className="menuEl" onClick={() => setThisUrl("/contact")} to={"/contact"}>Контакти</Link></li>
-            <li className="liMenuEl"><a    className="menuEl" onClick={() => setThisUrl("/about")} style={{cursor: "pointer"}}>+38(096)896-19-01</a></li>
+            <li className="liMenuEl"><a    className="menuEl _lastMenuEl" onClick={() => setThisUrl("/about")} tel="+380968961901" style={{cursor: "pointer"}}>+38(096)896-19-01</a></li>
           </ul>
         </div>
       </header>
